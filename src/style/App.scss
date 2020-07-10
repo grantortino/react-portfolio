@@ -1,0 +1,76 @@
+html {
+    background-color: #ffeead;
+}
+
+.mobile-grid-case {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto auto 50px 10px;
+    .mob-aside-left {
+        grid-row: 1 / 6;
+        grid-column: 1 / 2;
+    }
+
+    .mob-upper-empty {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    .mob-aside-right {
+        grid-row: 1 / 6;
+        grid-column: 3 / 4;
+    }
+
+    .mob-central {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .mob-arrows {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+    
+    .mob-contactme {
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+    
+    .mob-bottom-empty {
+        grid-row: 5 / 6;
+        grid-column: 2 / 3;
+    }
+}
+
+.select-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-image {
+    width: 100%;
+}
+
+.select-button {
+    width: 100%;
+}
+
+.select-stage-arrows {
+    display: flex;
+}
+
+.arrow {
+    width: 50%;
+    margin : 15px 0 15px 0;
+}
+
+.mob-contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    background-color: darkgoldenrod;
+    color: #ffeead;
+}
