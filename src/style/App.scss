@@ -13,8 +13,8 @@ html {
 
 .mobile-grid-case {
     display: grid;
-    grid-template-columns: 25px auto 25px;
-    grid-template-rows: 25px auto auto 50px 25px;
+    grid-template-columns: 45px auto 45px;
+    grid-template-rows: 45px auto auto 50px 45px;
 
     .mob-aside-left {
         grid-row: 1 / 6;
@@ -73,7 +73,7 @@ html {
 
 .arrow {
     width: 50%;
-    margin : 15px 0 15px 0;
+    margin : 10px 0 10px 0;
 }
 
 .mob-contactme {
