@@ -7,10 +7,6 @@ class SelectStageArrows extends React.Component {
     constructor(props) {
         super(props);
     }
-    
-    changingPic = (props) => {
-        console.log(props)
-    }
 
     render() { 
         return ( 

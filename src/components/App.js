@@ -49,7 +49,7 @@ class App extends React.Component {
                     <SelectStageCard />
                 </div>
                 <div className="mob-case mob-arrows">
-                    <SelectStageArrows props={this.state} />
+                    <SelectStageArrows sections={this.state} />
                 </div>
                 <div className="mob-case mob-contactme">
                     <ContactButton />

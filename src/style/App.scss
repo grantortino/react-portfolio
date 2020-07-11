@@ -1,11 +1,21 @@
+// DOCUMENT
+
 html {
     background-color: #ffeead;
 }
 
+@font-face {
+    font-family: "Arcade Classic";
+    src: url(../style/ARCADECLASSIC.TTF);
+}
+
+// GRID 
+
 .mobile-grid-case {
     display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-rows: 10px auto auto 50px 10px;
+    grid-template-columns: 25px auto 25px;
+    grid-template-rows: 25px auto auto 50px 25px;
+
     .mob-aside-left {
         grid-row: 1 / 6;
         grid-column: 1 / 2;
@@ -21,7 +31,7 @@ html {
         grid-column: 3 / 4;
     }
 
-    .mob-central {
+    .select-stage-card {
         grid-row: 2 / 3;
         grid-column: 2 / 3;
     }
@@ -50,6 +60,7 @@ html {
 
 .select-image {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .select-button {
