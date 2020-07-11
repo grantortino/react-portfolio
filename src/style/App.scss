@@ -69,10 +69,11 @@ html {
 
 .select-stage-arrows {
     display: flex;
+    justify-content: space-around;
 }
 
 .arrow {
-    width: 50%;
+    width: 30%;
     margin : 10px 0 10px 0;
 }
 
