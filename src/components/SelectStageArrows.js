@@ -1,21 +1,25 @@
 import React from 'react';
-import SelectStageCard from './SelectStageCard';
 import rightArrow from '../images/sito-mobile/arrow-right.png';
 import leftArrow from '../images/sito-mobile/arrow-left.png';
 
 class SelectStageArrows extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
+    goRight = () => {
+        this.props.goRightCallback()
+    };
+
+    goLeft = () => {
+        this.props.goLeftCallback()
+    };
 
     render() { 
         return ( 
             <div className="select-stage-arrows">
-                <img 
+                <img onClick={this.goLeft}
                      className="arrow arrow-right" 
                      src={leftArrow} 
                      alt="arrow left" />
-                <img 
+                <img onClick={this.goRight}
                      className="arrow arrow-left" 
                      src={rightArrow} 
                      alt="arrow right" />
