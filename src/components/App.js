@@ -14,6 +14,8 @@ import meetHead from '../images/select-mobile/meet_head.png';
 import meetButton from '../images/select-mobile/meet.png';
 // STYLE
 import '../style/App.scss';
+// ROUTING
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
     constructor(props) {
