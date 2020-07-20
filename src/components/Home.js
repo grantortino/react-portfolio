@@ -25,22 +25,30 @@ class Home extends React.Component {
                 {
                     pic: knowHead,
                     button: knowButton,
-                    link: "/know"
+                    link: "/know",
+                    altPic: "a little portrait image",
+                    altButton: "an img for the button"
                 },
                 {
                     pic: workHead,
                     button: workButton,
-                    link: "/work"
+                    link: "/work",
+                    altPic: "a little portrait image",
+                    altButton: "an img for the button"
                 },
                 {
                     pic: playHead,
                     button: playButton,
-                    link: "/play"
+                    link: "/play",
+                    altPic: "a little portrait image",
+                    altButton: "an img for the button"
                 },
                 {
                     pic: meetHead,
                     button: meetButton,
-                    link: "/meet"
+                    link: "/meet",
+                    altPic: "a little portrait image",
+                    altButton: "an img for the button"
                 }
             ]
         }

@@ -5,11 +5,13 @@ import Know from './components/Know';
 import Work from './components/Work';
 import Play from './components/Play';
 import Meet from './components/Meet';
-
+import Tech from './components/Tech';
 
 class App extends React.Component {
     render() {
+
         return (
+
             <main>
                 {/* Switch element ensure that only one component is rendered at a time */}
                 <Switch>
@@ -19,6 +21,7 @@ class App extends React.Component {
                     <Route path="/play" component={Play} />
                     <Route path="/work" component={Work} />
                     <Route path="/meet" component={Meet} />
+                    <Route path="/tech" component={Tech} />
                 </Switch>
             </main>
         )

@@ -4,6 +4,15 @@ html {
     background-color: #ffeead;
 }
 
+body {
+    height: 80vh;
+}
+
+p {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}
+
 @font-face {
     font-family: "Arcade Classic";
     src: url(../style/ARCADECLASSIC.TTF);
@@ -70,11 +79,11 @@ html {
 .select-stage-arrows {
     display: flex;
     justify-content: space-around;
-}
-
-.arrow {
+    height: 80px;
+    .arrow {
     width: 40%;
     margin: 10px 0 10px 0;
+    }
 }
 
 .mob-contactme {
@@ -85,4 +94,93 @@ html {
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
     background-color: darkgoldenrod;
     color: #ffeead;
+}
+
+// PROFILE BUTTONS
+
+.profile-button{
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    color: darkgoldenrod;
+    border: 3px solid darkgoldenrod;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+// BACK BUTTON
+
+.back-button {
+    text-align: center;
+    font-size: 250%;
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    background-color: darkgoldenrod;
+    color: #ffeead;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.push {
+    height: 30px;
+}
+
+// PAGE HEADER
+
+.page-header-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 30%;
+        border-radius: 25px;
+        border: 3px solid #ffeead;
+        margin-right: 15px;
+    }
+
+}
+
+.h1-style {
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    font-size: 50px;
+    color: #B4202A;
+    text-align: center;
+    margin: 0 auto;
+}
+
+// PAGE - HEADER FONT
+
+.section-header {
+    color: #B4202A;
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+
+// KNOW IMAGES
+
+.know-page-img {
+    width: 100%;
+    border: 3px solid darkgoldenrod;
+}
+
+// WORK BUTTONS
+
+.work-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+// WORK - TECH SECTION 
+
+.tech-icon-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
