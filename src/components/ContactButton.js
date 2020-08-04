@@ -14,7 +14,7 @@ const ContactButton = (props) => {
     return (
         <div>
             <Link style={style} to={props.pathData}>
-                <div>CONTACT</div>
+                <div className="contact-button">CONTACT</div>
             </Link>
         </div>
     )
