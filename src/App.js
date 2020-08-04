@@ -6,6 +6,13 @@ import Work from './components/Work';
 import Play from './components/Play';
 import Meet from './components/Meet';
 import Tech from './components/Tech';
+import Visuals from './components/Visuals';
+import Language from './components/Language';
+import Soundcloud from './components/Soundcloud';
+import Spotify from './components/Spotify';
+import Youtube from './components/Youtube';
+import Bandcamp from './components/Bandcamp';
+import Contact from './components/Contact';
 
 class App extends React.Component {
     render() {
@@ -22,6 +29,13 @@ class App extends React.Component {
                     <Route path="/work" component={Work} />
                     <Route path="/meet" component={Meet} />
                     <Route path="/tech" component={Tech} />
+                    <Route path="/visuals" component={Visuals} />
+                    <Route path="/language" component={Language} />
+                    <Route path="/soundcloud" component={Soundcloud} />
+                    <Route path="/spotify" component={Spotify} />
+                    <Route path="/youtube" component={Youtube} />
+                    <Route path="/bandcamp" component={Bandcamp} />
+                    <Route path="/contact" component={Contact} />
                 </Switch>
             </main>
         )

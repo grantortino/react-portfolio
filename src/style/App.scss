@@ -4,13 +4,14 @@ html {
     background-color: #ffeead;
 }
 
-body {
-    height: 80vh;
-}
-
 p {
     font-family: 'Do Hyeon', sans-serif;
     font-size: 30px;
+}
+
+a {
+    color: darkgoldenrod;
+    text-decoration: none;
 }
 
 @font-face {
@@ -90,15 +91,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 250%;
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
     background-color: darkgoldenrod;
-    color: #ffeead;
+    height: 150%;
 }
 
 // PROFILE BUTTONS
 
-.profile-button{
+.profile-button {
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
     color: darkgoldenrod;
     border: 3px solid darkgoldenrod;
@@ -112,6 +112,7 @@ p {
 
 .back-button {
     text-align: center;
+    height: 70px;
     font-size: 250%;
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
     background-color: darkgoldenrod;
@@ -120,42 +121,48 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 50px;
 }
 
 .push {
-    height: 30px;
+    height: 100px;
+}
+
+.push-half {
+    height: 50px;
 }
 
 // PAGE HEADER
 
 .page-header-container{
     margin: 0 auto;
+    border-bottom: 3px solid darkgoldenrod;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     img {
         width: 30%;
         border-radius: 25px;
         border: 3px solid #ffeead;
-        margin-right: 15px;
     }
 
+    h1 {
+        font-size: 80px;
+    }
 }
 
 .h1-style {
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #B4202A;
     text-align: center;
     margin: 0 auto;
+    width: 100%;
 }
 
 // PAGE - HEADER FONT
 
 .section-header {
-    color: #B4202A;
     font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
     text-align: center;
 }
@@ -178,9 +185,100 @@ p {
 
 // WORK - TECH SECTION 
 
-.tech-icon-container {
-    margin-top: 30px;
+.tech-icon-container, .ig-pics {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.tech-icon-container {
+    margin-top: 30px;
+
+    img {
+        width: 150px;
+    }
+}    
+
+// WORK - VISUALS SECTION
+
+.ig-pics {
+
+    img {
+    border: 5px solid darkgoldenrod;
+    margin-bottom: 10px;
+    width: 80%;
+    
+    }
+}
+
+// WORK - LANGUAGES
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+    th {
+        font-size: 40px;
+        color: #ffeead;
+        background-color: darkgoldenrod;
+    }
+    td {
+        border: 3px solid darkgoldenrod;
+    }
+}
+
+// MEET - FORM
+
+.ul-container-meet {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+    color: darkgoldenrod;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+}
+
+textarea {
+    width: 80%;
+    height: 250px;
+    resize: none;
+}
+
+input, textarea {
+    border: 3px solid darkgoldenrod;
+    background-color: #ffeead;
+}
+
+.form-button-container-meet{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-meet {
+    font-family: "Arcade Classic", 'Do Hyeon', sans-serif;
+    font-size: 130%;
+    background-color: #ffeead;
+    border: 3px solid darkgoldenrod;
+    color: darkgoldenrod;
 }

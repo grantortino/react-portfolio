@@ -1,6 +1,5 @@
 import React from 'react';
 import TechText01 from '../text/TechText01';
-import WorkSections from './WorkSections';
 import html5 from '../images/logos/html5-logo.png';
 import css3 from '../images/logos/css3-logo.png';
 import grid from '../images/logos/grid-logo.png';
@@ -11,10 +10,12 @@ import jslogo from '../images/logos/js-logo.png';
 import hblogo from '../images/logos/handlebars-logo.png';
 import jqlogo from '../images/logos/jquery-logo.png';
 import jsonlogo from '../images/logos/json-logo.png';
+import BackButton from './BackButton';
 
-const Tech = (props) => {
+const Tech = () => {
 
     return (
+        
         <div>
             <h1 className="h1-style">TECH</h1>
             <TechText01 />
@@ -46,7 +47,7 @@ const Tech = (props) => {
                 <img src={jsonlogo} alt="JSON logo" />
                 <p>JSON</p>
             </div>
-            <WorkSections />
+            <BackButton pathData="/work" />
         </div>
     )
 }

@@ -72,22 +72,22 @@ class Home extends React.Component {
 
     render() {
         let activeSection = this.state.sections[this.state.counter - 1];
-
+        
         return (
             <div className="mobile-grid-case">
-                <div className="mob-case mob-aside-left"></div>
-                <div className="mob-case mob-upper-empty"></div>
-                <div className="mob-case mob-aside-right"></div>
+                <div className="mob-aside-left"></div>
+                <div className="mob-upper-empty"></div>
+                <div className="mob-aside-right"></div>
                 <div className="select-stage-card">
                     <SelectStageCard data={activeSection} />
                 </div>
-                <div className="mob-case mob-arrows">
+                <div className="mob-arrows">
                     <SelectStageArrows goRightCallback={this.handlingGoingRight} goLeftCallback={this.handlingGoingLeft} />
                 </div>
-                <div className="mob-case mob-contactme">
-                    <ContactButton />
+                <div className="mob-contactme">
+                    <ContactButton pathData="/contact" />
                 </div>
-                <div className="mob-case mob-bottom-empty"></div>
+                <div className="mob-bottom-empty"></div>
             </div>
         );
     };

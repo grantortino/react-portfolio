@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 
 
-const BackButton = () => {
-
+const BackButton = (props) => {
+    console.log(props)
     const style = {
         textDecoration: "none",
     }
@@ -12,7 +12,7 @@ const BackButton = () => {
     return (
         <div>
             <div className="push" />
-            <Link style={style} to="/home">
+            <Link style={style} to={props.pathData}>
                 <div className="back-button">BACK</div>
             </Link>
         </div>

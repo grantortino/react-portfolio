@@ -13,12 +13,13 @@ class Know extends React.Component {
         return (
             <div className="page-content">
                 <PageHeader title="KNOW" icon={knowHead} />
-                    <h1 className="section-header">MY&nbsp;STORY&nbsp;SO&nbsp;FAR&nbsp;!</h1>
+                    <h1 className="section-header h1-style">MY&nbsp;STORY&nbsp;SO&nbsp;FAR&nbsp;!</h1>
+                    <div className="push-half"></div>
                     <img className="know-page-img" src={nicCouch} alt="me sitting on a couch" />
                 <KnowText01 />
                     <img className="know-page-img" src={nicKitchen} alt="me cutting vegetables" />
                 <KnowText02 className="bottom-margin" />
-                <BackButton />
+                <BackButton pathData="/home" />
             </div>)
     }
 }; 
