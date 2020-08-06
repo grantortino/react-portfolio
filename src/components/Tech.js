@@ -10,6 +10,8 @@ import jslogo from '../images/logos/js-logo.png';
 import hblogo from '../images/logos/handlebars-logo.png';
 import jqlogo from '../images/logos/jquery-logo.png';
 import jsonlogo from '../images/logos/json-logo.png';
+import rctlogo from '../images/logos/react-logo.png';
+import reduxlogo from '../images/logos/redux-logo.png';
 import BackButton from './BackButton';
 
 const Tech = () => {
@@ -40,6 +42,10 @@ const Tech = () => {
             <div className="tech-icon-container">
                 <img src={jslogo} alt="javascript logo" />
                 <p>JAVASCRIPT</p>
+                <img src={rctlogo} alt="react logo" />
+                <p>REACT</p>
+                <img src={reduxlogo} alt="redux logo" />
+                <p>REDUX</p>
                 <img src={hblogo} alt="handlebars logo" />
                 <p>HANDLEBARS</p>
                 <img src={jqlogo} alt="jquery logo" />
